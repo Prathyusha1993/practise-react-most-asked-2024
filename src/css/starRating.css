@@ -1,0 +1,14 @@
+.star-rating::before {
+    content: '\2605';
+    font-size: 30px;
+    color: gold;
+}
+
+.star::before {
+content: '\2606';
+font-size: 30px;
+}
+
+span {
+    cursor: pointer;
+}

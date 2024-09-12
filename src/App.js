@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './components/Calculator';
+import CalendarComp from './components/CalendarComp';
+import Carousel from './components/Carousel';
+import Counter from './components/Counter';
+import DarkLightTheme from './components/DarkLightTheme';
+import InfiniteScroll from './components/InfiniteScroll';
+import SearchComponent from './components/SearchComponent';
+import StarRating from './components/StarRating';
+import StopWatch from './components/StopWatch';
+import TodoApp from './components/TodoApp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CalendarComp />
+      <Carousel />
+      <SearchComponent />
+      <Counter />
+      <TodoApp />
+      <Calculator />
+      {/* <InfiniteScroll /> */}
+      <StarRating totalStars={5} rating={2} />
+      <StopWatch />
+      <DarkLightTheme />
     </div>
   );
 }
