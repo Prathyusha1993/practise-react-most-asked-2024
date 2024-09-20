@@ -5,6 +5,7 @@ import Carousel from './components/Carousel';
 import Counter from './components/Counter';
 import DarkLightTheme from './components/DarkLightTheme';
 import InfiniteScroll from './components/InfiniteScroll';
+import MemoHookUsage from './components/MemoHookUsage';
 import SearchComponent from './components/SearchComponent';
 import StarRating from './components/StarRating';
 import StopWatch from './components/StopWatch';
@@ -23,6 +24,7 @@ function App() {
       <StarRating totalStars={5} rating={2} />
       <StopWatch />
       <DarkLightTheme />
+      <MemoHookUsage />
     </div>
   );
 }
